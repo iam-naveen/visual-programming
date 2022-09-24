@@ -23,20 +23,23 @@ class Ball {
         if (wall == Left) {
             this.x = Left + this.r;
             this.speedX *= -1;
+            this.speedX--
         }
         if (wall == Right) {
             this.x = Right - this.r;
             this.speedX *= -1;
+            this.speedX++
         }
         if (wall == Top) {
             this.y = Top + this.r;
-            this.speedY *= -1;
             this.speedY++
+            this.speedY *= -1;
         }
         if (wall == Bottom) {
             this.y = Bottom - this.r;
             this.speedY *= -1
             this.speedY++
+            this.speedX += -(this.speedX * 0.1)
         }
     }
 }
