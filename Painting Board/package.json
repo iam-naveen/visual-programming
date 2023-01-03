@@ -1,0 +1,19 @@
+{
+  "name": "websockets-p5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Naveen Bharath",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "socket.io": "^4.5.2"
+  }
+}
